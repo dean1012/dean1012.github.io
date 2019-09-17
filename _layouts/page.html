@@ -8,7 +8,13 @@ layout: default
       {%- if page.logo -%}
         {{ page.logo }}
       {%- endif -%}
-      {{ page.title | escape }}
+
+      {%- if page.display_name -%}
+        {%- assign display_name = page.display_name -%}
+      {%- else -%}
+        {%- assign display_name = page.title -%}
+      {%- endif -%}
+      {{ display_name | escape }}
     </h1>
   </header>
 
