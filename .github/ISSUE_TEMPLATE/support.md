@@ -2,7 +2,7 @@
 name: Support
 about: Tell me how I can help you
 title: "[SUPPORT] Title here"
-labels: ''
+labels: support
 assignees: ''
 
 ---
