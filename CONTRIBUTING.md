@@ -58,4 +58,5 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 * **Provide a link to the related issue** if the pull request is a follow up of an existing bug report or enhancement suggestion.
 * **Comment why this pull request represents an enhancement** and give a rationale explaining why you did it that way and not another way.
 * **Use the same coding style as the one used in this project**.
+* **Sign all commits**.
 * **Welcome suggestions from me to improve your pull request**.
