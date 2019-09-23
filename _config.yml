@@ -91,5 +91,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor
   - update_boostrap.sh
   - start_test_server.sh
