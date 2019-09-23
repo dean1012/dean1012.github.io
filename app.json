@@ -1,0 +1,7 @@
+{
+  "name": "Jerry Smith - Website",
+  "description": "https://jerry-smith.net",
+  "image": "heroku/ruby",
+  "repository": "https://github.com/dean1012/dean1012.github.io",
+  "keywords": ["ruby"]
+}
