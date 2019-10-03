@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}"><i class="fab fa-redhat"></i>{{ site.title | escape }}</a>
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+      <i class="fab fa-redhat"></i>{{ site.title | escape }}
+    </a>
 
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -13,7 +15,9 @@
           {%- assign my_page = site.pages | where: "path", path | first -%}
           {%- if my_page.title -%}
             <li class="nav-item">
-              <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.icon }}{{ my_page.title | escape }}</a>
+              <a class="nav-link" href="{{ my_page.url | relative_url }}">
+                {{ my_page.icon }}{{ my_page.title | escape }}
+              </a>
             </li>
           {%- endif -%}
         {% endfor -%}
@@ -24,7 +28,9 @@
           <a class="nav-link" href="{{ site.gpg_key_url }}"><i class="fas fa-shield-alt"></i>GPG Public Key</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ site.github.repository_url }}"><i class="fas fa-code-branch"></i>Fork me on Github</a>
+          <a class="nav-link" href="{{ site.github.repository_url }}">
+            <i class="fas fa-code-branch"></i>Fork me on Github
+          </a>
         </li>
       </ul>
     </div>
